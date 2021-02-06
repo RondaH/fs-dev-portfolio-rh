@@ -1,5 +1,6 @@
 # fs-dev-portfolio-rh
 The purpose of this application is to begin the development of a professional portfolio in the field of full-stack web development. The ability to show case my beginning work and hopefully show my progression over the course of the next year. This will allow potential employers to view my talents.
+Utilized semantic HTML.
 
 Screenshot enclosed in image file.
 

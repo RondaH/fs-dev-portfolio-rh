@@ -1,3 +1,4 @@
+/* set widths, margins, padding and text-alignment*/
 header {
     width: 90%;
     margin: 0 auto;
@@ -20,9 +21,7 @@ footer {
     font-size: small;
 
 }
-
-
-
+/*set content color and background color and aligned text*/
 
 h1 {
     color: blueviolet;
@@ -37,7 +36,7 @@ h2 {
 section{
     background-color: burlywood;
 }
-
+/* created box with flex; set width and height value*/
 .box {
     display: flex;
     align-items: center;
@@ -48,10 +47,42 @@ section{
 width: 410px;
 height: 210px;
 }
-
+/* inserted image of first deployed project*/
 img { width: 200px; height: 200px; 
 
 }
+
+/* created second box as placeholder for future deployed project adjusted width and height*/
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-display: flex;
+}
+.box div {
+width: 125px;
+height: 150px;
+background-color: darkolivegreen;
+}
+/* inserted image of first deployed project*/
+img { width: 200px; height: 200px; 
+
+
+
+/* using a mobile-first approach, use 'min-width' values going from narrow-> wide for a responsive design*/
+@media screen and (min-width: 768px) {
+    /*on tablets, set columns to only be 50% of the width and not grow*/
+    }
+    /*select the last child to grow to full width if it has space to grow*/    
+
+/* media query for larger screens*/
+@media screen and (min-width: 992px) {
+    header{
+        width: 75%;
+    }
+}
+    
+    
 
 
 
