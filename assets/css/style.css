@@ -66,7 +66,7 @@ background-color: darkolivegreen;
 }
 /* inserted image of first deployed project*/
 img { width: 200px; height: 200px; 
-
+}
 
 
 /* using a mobile-first approach, use 'min-width' values going from narrow-> wide for a responsive design*/
@@ -76,7 +76,7 @@ img { width: 200px; height: 200px;
     /*select the last child to grow to full width if it has space to grow*/    
 
 /* media query for larger screens*/
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) { 
     header{
         width: 75%;
     }
